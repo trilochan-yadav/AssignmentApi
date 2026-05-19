@@ -1,0 +1,44 @@
+# .NET Build directories
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# ReSharper
+.idea/
+*.sln.iml
+*.resharper
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Development database
+data/
+
+# Dependencies
+packages/
+node_modules/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+
+# OS files
+.DS_Store
+Thumbs.db

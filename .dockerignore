@@ -1,0 +1,17 @@
+# Docker ignore files
+bin/
+obj/
+.vs/
+.vscode/
+*.db
+*.sqlite
+*.sqlite3
+data/
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+.editorconfig
+README.md
+.devcontainer/

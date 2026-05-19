@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  assignmentapi:
+    build:
+      context: .
+      dockerfile: AssignmentApi/Dockerfile
+
+    ports:
+      - "5000:5000"
+
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+
+    volumes:
+      - sqlite-data:/app
+
+volumes:
+  sqlite-data:
